@@ -1,5 +1,5 @@
 {
-  "name": "chrisbjr/api-guard",
+  "name": "yorchito92/api-guard",
   "description": "A simple way of authenticating your APIs with API keys using Laravel",
   "keywords": [
     "api",
@@ -9,7 +9,7 @@
     "api authentication",
     "laravel"
   ],
-  "homepage": "https://github.com/chrisbjr/api-guard",
+  "homepage": "https://github.com/yorchito92/api-guard",
   "authors": [
     {
       "name": "Chris Bautista",
