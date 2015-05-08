@@ -1,34 +1,40 @@
 {
-    "name": "chrisbjr/api-guard",
-    "description": "A simple way of authenticating your APIs with API keys using Laravel",
-    "keywords": [
-        "api",
-        "rest",
-        "json",
-        "api keys",
-        "api authentication",
-        "laravel"
+  "name": "chrisbjr/api-guard",
+  "description": "A simple way of authenticating your APIs with API keys using Laravel",
+  "keywords": [
+    "api",
+    "rest",
+    "json",
+    "api keys",
+    "api authentication",
+    "laravel"
+  ],
+  "homepage": "https://github.com/chrisbjr/api-guard",
+  "authors": [
+    {
+      "name": "Chris Bautista",
+      "email": "chrisbjr@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/yorchito92/api-response"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.*",
+    "illuminate/database": "*",
+    "ellipsesynergie/api-response": "dev-extra-methods@dev"
+  },
+  "autoload": {
+    "classmap": [
+      "database"
     ],
-    "homepage": "https://github.com/chrisbjr/api-guard",
-    "authors": [
-        {
-            "name": "Chris Bautista",
-            "email": "chrisbjr@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.0.*",
-        "illuminate/database": "*",
-        "ellipsesynergie/api-response": "0.9.*"
-    },
-    "autoload": {
-        "classmap": [
-            "database"
-        ],
-        "psr-4": {
-            "Chrisbjr\\ApiGuard\\": "src"
-        }
-    },
-    "minimum-stability": "stable"
+    "psr-4": {
+      "Chrisbjr\\ApiGuard\\": "src"
+    }
+  },
+  "minimum-stability": "stable"
 }
